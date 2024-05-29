@@ -7,10 +7,21 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
-    <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+<head>
+    <title>Home</title>
+</head>
+<body>
+
+<h1>Ingrese los datos</h1>
+<form action = "form.jsp" method = "post">
+    Velocidad Inicial: <input type = "number" name = "vi">
+    <br />
+    Velocidad Final: <input type = "number" name = "vf" />
+    <br />
+    Tiempo en segundos <input type = "number" name = "tiempo" />
+    <input type = "submit" value = "Submit" />
+</form>
+
+
+</body>
 </html>
